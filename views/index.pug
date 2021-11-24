@@ -1,0 +1,79 @@
+extends layout.pug 
+
+block title
+  title #{title} 
+
+block navbar
+  li(class="nav-item")
+    a(class="nav-link active", href="/") Home
+  li(class="nav-item")
+    a(class="nav-link", href="/about") About
+
+
+block content
+  div(class="container my-5 p-0")
+    div(class="jumbotron text-center px-4")
+      img(src="https://pbs.twimg.com/profile_images/1310426601171988480/7LwzbaEd_400x400.jpg", width="220", class="mb-4")
+      h1(class="fs-2 fw-bold mb-0") Rahma Syndu Grananta
+      p(class="lead mb-4")
+        i(class="fas fa-graduation-cap")
+        |  Mahasiswa
+      hr
+      p(class="lead fw-bold mb-2") Overview
+      p(class="mb-5") Hi, Saya adalah mahasiswa yang sangat antusias dengan 
+        i Programming, 
+        | Cyber Security, 
+        i Computer network, 
+        | dan Sistem Cerdas.
+  
+    div(class="row justify-content-center w-100 m-0")
+      div(class="col-auto")
+        div(class="card my-2" style="width: 20rem")
+          div(class="card-body")
+            h5(class="card-title m-0 text-center fw-bold")
+              i(class="fas fa-code")
+              |  Skill
+          ul(class="list-group list-group-flush")
+            li(class="list-group-item")
+              span(class="badge bg-dark") 1
+              |  HTML, CSS (
+              i Advanced
+              | )
+            li(class="list-group-item")
+              span(class="badge bg-dark") 2
+              |  Javascript (
+              i Intermediate
+              | )
+            li(class="list-group-item")
+              span(class="badge bg-dark") 3
+              |  PHP, Python (
+              i Intermediate
+              | )
+      div(class="col-auto")
+        div(class="card my-2" style="width: 20rem")
+          div(class="card-body")
+            h5(class="card-title m-0 text-center fw-bold")
+              i(class="fas fa-business-time")
+              |  Pengalaman
+          ul(class="list-group list-group-flush")
+            li(class="list-group-item")
+              span(class="badge bg-dark") 1
+              |  Mahaiswa Aktif Universitas Brawijaya
+            li(class="list-group-item")
+              span(class="badge bg-dark") 2
+              |  Aktif dalam bidang ilmu komputer
+            li(class="list-group-item")
+              span(class="badge bg-dark") 3
+              |  Kontribusi 
+              i Open Source
+      p(class="lead fw-bold mb-15")
+      p(class="lead fw-bold mb-15")
+      p(class="lead fw-bold mb-15")
+      p(class="lead fw-bold mb-15")
+      p(class="lead fw-bold mb-15")
+
+                    
+
+
+
+              

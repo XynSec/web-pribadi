@@ -1,0 +1,70 @@
+extends layout.pug 
+
+block title
+  title #{title} 
+
+block navbar
+  li(class="nav-item")
+    a(class="nav-link", href="/") Home
+  li(class="nav-item")
+    a(class="nav-link active", href="/about") About
+
+
+block content
+  div(class="container my-5 p-0")
+    div(class="jumbotron px-4")
+      h1(class="fs-2 fw-bold mb-0") About Me
+      p(class="lead mb-4") Rahma Syndu Grananta
+      hr
+      p(class="fs-5 mb-3 text-justify")
+        | Pemrograman dan teknologi selalu berkembang dan selalu diperbarui. Berkecimpung dalam dunia Pemrograman atau teknologi bagaikan berlari di atas 
+        i treadmill
+        |, diam artinya berhenti dan tertinggal, untuk dapat bersaing kita harus mengembangkan diri sesuai industri.
+      p(class="fs-5 mb-3 text-justify")
+        | Khususnya dalam perkembangan teknologi web, banyak sekali teknologi-teknologi yang digunakan dalam
+        i web development
+        |. sebagai Mahasiswa IT kita harus menguasai setidaknya dasar fundamental pemrograman web untuk dapat lanjut mempelajari teknologi-teknologi web lainnya. Dalam hal ini, kita harus menguasai HTML, CSS, dan Javascript.
+      p(class="fs-5 mb-3 text-justify")
+        | Saya merupakan mahasiswa yang sangat antusias dengan Teknologi, khususnya jaringan komputer dan pemrograman. Suka mempelajari pemrograman mulai dari 
+        i Web Programming
+        |, 
+        i Desktop Programming
+        |, 
+        i Mobile Programming
+        |  sampai 
+        i IOT Programming
+        |. Saya juga mampu dalam hal 
+        i IT Networking Support
+        |, Desain, dan sedikit kemampuan mengelola 
+        i Database
+        |. Selain itu, saya juga ulet dan tekun dalam mengerjakan suatu projek, pantang menyerah, selalu ingin tahu, dan mudah mempelajari hal baru.
+      p(class="fs-5 mb-2 text-justify")
+        | Berikut ini video tentang saya ketika mempresentasikan sebuah projek.
+    div(class="row justify-content-center w-100 m-0")
+      div(class="col-auto p-0 m-3")
+        iframe(width="360", height="215", src="https://www.youtube.com/embed/jABgin5ecaQ", title="YouTube video player", frameborder="0", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+      div(class="col-auto p-0 m-3")
+        iframe(width="360", height="215", src="https://www.youtube.com/embed/lMKI0lNOMMI", title="YouTube video player", frameborder="0", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+    hr
+    div(class="row justify-content-center w-100 m-0")
+      div(class="col-auto")
+        p(class="fs-5 text-justify") Social Media
+    div(class="row justify-content-center w-100 m-0")
+      div(class="col-auto p-2")
+        a(href="mailto:akusyndu@gmail.com", class="link-dark")
+          i(class="fas fa-envelope-square fa-3x")
+      div(class="col-auto p-2")
+        a(href="https://web.facebook.com/rsyndu", class="link-dark")
+          i(class="fab fa-facebook-square fa-3x") 
+      div(class="col-auto p-2")
+        a(href="https://www.instagram.com/r_syndu", class="link-dark")
+          i(class="fab fa-instagram-square fa-3x")
+      div(class="col-auto p-2")
+        a(href="https://twitter.com/r_syndu", class="link-dark")
+          i(class="fab fa-twitter-square fa-3x")
+      div(class="col-auto p-2")
+        a(href="https://www.youtube.com/channel/UC9oPjQOmQkCI3YIKSCSna5A/", class="link-dark")
+          i(class="fab fa-youtube-square fa-3x")
+      div(class="col-auto p-2")
+        a(href="https://github.com/XynSec", class="link-dark")
+          i(class="fab fa-github-square fa-3x")

@@ -1,0 +1,26 @@
+{
+  "name": "web-pribadi",
+  "version": "1.0.0",
+  "description": "Studi Kasus - Web Pribadi",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index",
+    "start": "node index"
+  },
+  "keywords": [
+    "Express",
+    "Pug",
+    "Bootstrap",
+    "Fontawesome"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
